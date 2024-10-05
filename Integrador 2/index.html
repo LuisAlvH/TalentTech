@@ -9,7 +9,8 @@
   <body>
     <header>
       <h1>Mi proyecto integrador</h1>
-      <img src="2889198.jpg" alt="mi logo" />
+
+      <img src="2889198.jpg" alt="mi logo" width="600" height="300" />
     </header>
     <nav>
       <ul>
@@ -20,7 +21,28 @@
         <li><a href="#">Contacto</a></li>
       </ul>
     </nav>
-    <main></main>
+    <!-- / en una etiqueta a , siempre me lleva a el index -->
+    <main>
+      <section>
+        <a href="2889198.jpg" download>Descarga la imagen</a>
+        <!-- Con download , forzamos la descarga -->
+        <img src="2889198.jpg" alt="imagen" width="600" height="300" />
+      </section>
+      <section>
+        <div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/sCtLtac3RmI?si=Mku4JUM1a9oznp92"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
 
     <footer>
       <small>copyright</small>
